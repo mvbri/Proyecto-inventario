@@ -1,0 +1,21 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  font-family:sans-serif;
+  box-sizing:border-box;
+}
+
+body{
+  background:url(../imgs/menu.jpg);
+  background-repeat:no-repeat; 
+  background-size:1024px; 
+}
+
+div, header{
+  border:1px solid #000;
+  padding:5px;
+  float:left; 
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="css/style1.css">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--<script src="https://kit.fontawesome.com/3fd4dad85a.js" crossorigin="anonymous"></script>-->
+<link rel="stylesheet" href="css/all.min.css">
+<script src="jquery/jquery-3.5.1.js"></script>
+
+<script>
+
+ $(document).ready(function(){
+ 
+ 
+  $("#menu").click(function(){
+  
+  $("nav").slideToggle(300);
+  
+  });
+  
+  $("nav .fa-chevron-right").hover(function(){
+  
+   $(this).replacewith("<i class="fas fa-chevron-down"></i>");
+  
+  },
+  
+  function(){
+  
+  $(this).replacewith("<i class="fas fa-chevron-right"></i>");
+  
+  },500);
+ 
+ });
+
+</script>	
+</head>
+
+<body>
+    <div class="contenedor"> <!--INICIO CONTENEDOR-->
+	
+	<!---PRIMERA SRECCIÓN-->
+	
+	  <header class="fila"> <!--INCIO FILA HEADER-->
+
+	  
+	      <div class="logo col-lg-2 col-md-2 col-sm-3 col-xs-12"> <!--INCIO DIV LOGO-->
+		  
+		    <img src="imgs/logo.png" alt="logo">
+			
+			Comercializadora y distribuidora<br> <span>Martinez</span>
+		  
+		  </div> <!--FIN DIV LOGO-->
+		  
+		  <div class="busqueda col-lg-4 col-md-4 col-sm-8 col-xs-10"> <!--INICIO DIV BUSQUEDA-->
+		  
+		    <i id="menu" class="fas fa-bars"></i> <i class="fas fa-expand-arrows-alt"></i> <input type="search" class="fontawesome" placeholder=" Busqueda...">
+		  
+		  </div> <!--FIN DIV BUSQUEDA-->
+		  
+		  <div style="height:50px;" class="col-lg-4 col-md-4 col-sm-0 col-xs-0"> <!--DIV VACÍO-->
+		  
+		  
+		  </div><!--FIN DIV VACÍO-->
+		  
+		  <div class="usuario col-lg-2 col-md-2 col-sm-1 col-xs-2"> <!--INICIO DIV USUARIO-->
+		  
+		    <img src="imgs/icon_4.png">
+		  
+		  </div><!--FIN DIV USUARIO-->
+	  
+	  </header> <!--FIN FILA HEADER-->
+	  
+	  <!--SEGUNDA SECCIÓN------------->
+	  
+	  <div class="fila"> <!--INICIO FILA SEGUNDA SECCIÓN-->
+	  
+	    <nav class="col-lg-3 col-md-3 col-sm-4 col-xs-5"> <!--INICIO NAV MENU-->
+	    
+		  <ul>
+		      <li class="main">MAIN</li>
+		      <li><a href=""><i class="fas fa-anchor"></i>Tablero<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="far fa-address-card"></i>Proveedoras<i class="fas fa-chevron-right"></i></a></li>
+			
+		      <li><a href=""><i class="fas fa-border-all"></i>Categorías<i class="fas fa-chevron-right"></i></a>
+			
+			     <ul>
+			        <li><a href="">Agregar Categorías</a></li>
+			        <li><a href="">Gestionar Categorías</a></li>
+			     </ul>
+			
+			  </li>
+			
+		      <li><a href=""><i class="fas fa-warehouse"></i>Almacen<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-shopping-cart"></i>Productos<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-shopping-cart"></i>Productos Agotados<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-shopping-cart"></i>Productos Caducados<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="far fa-user"></i>Clientes<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-file-invoice"></i>Factura<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-file-invoice-dollar"></i>Gastos<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-hand-holding-usd"></i>Préstamos<i class="fas fa-chevron-right"></i></a></li>
+		      <li><a href=""><i class="fas fa-users"></i>Personal<i class="fas fa-chevron-right"></i></a></li>
+		  </ul>
+	  
+	  </nav> <!--FIN NAV MENU-->
+	  
+	  <div class="informacion col-lg-8col-md-8 col-sm-8 col-xs-12"> <!--INCIO DIV INFORMACIÓN-->
+	  
+	    <h2>Agregar Categoría</h2>
+		
+		<div> <!--INICIO DIV-->
+		
+		  <h3>Nueva Categoría</h3>
+		  
+		  <p>Use este formulario para agregar categorías a la base de datos</p>
+		  
+		  <form>
+		  
+		  <label name="categoria">Categoría</label> <input type="text" name="categoria" placeholder="Categoría"><br>
+		  
+		  <input type="button" value="Agregar">
+		  
+		  </form>
+		
+		</div> <!--FIN DIV-->
+	  
+	  </div> <!--FIN DIV INFORMACIÓN-->
+	  
+	  <footer class="col-lg-9 col-md-9 col-sm-8 col-xs-12"> <!--INICIO FOOTER-->
+	  
+	    <p><span>&copy;2020</span> Inventario Adaptable - <span>Todos los derechos reservados</span></p>
+		
+		<a href="">Privacidad</a>
+		<a href="">Terminos</a>
+		<a href="">Ayuda</a>
+	  
+	  </footer> <!--FIN FOOTER-->
+	  
+	</div>  <!--FIN FILA SEGUNDA SECCIÓN--> 
+	  
+	
+   </div> <!--FIN CONTENEDOR-->
+
+
+</body>
+</html>

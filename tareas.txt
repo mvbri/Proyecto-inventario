@@ -1,0 +1,32 @@
+ 
+
+   Tareas inventario responsive
+
+   1 - Ver qué sale mejor; tipografía o imagen en el logo, tipografía con contenedor para posicionar con mayor presición.  
+ 
+  2 - Probar si sale mejor eliminar la imagen de usuario para que las otras cajas ocupen 12 columnas
+
+  3 - Ver si centro el input de buscar en md
+
+  4 - ver como cuadro la sección de información
+
+  5 - Mejorar logo
+
+   Vincular el bontón al menu - Listo!
+
+  7 - Terminar el diseño responsive
+
+  8 - Revisar las tres formas de manejar elementos del       formulario
+-------------------------------------------------------
+  1.-Ajutar altura de icono desplegable.
+  2.-Colocar logo de la empresa.
+  3.-Centrar cuadro de busqueda.
+  5.-Enlazar login con icono de usuario.
+  6.-Crear las demás páginas y enlazarlas a los botones.
+  7.-Revisar lógica de la app.
+  8.-Ver si oscurezco pantalla al mostrar el menu.
+  9.-Poner las letras en medida vw.
+ 10.-Funcionalidad de login con JavaScript.
+ 
+
+  

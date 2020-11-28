@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="css/style1.css">
+
+	
+</head>
+
+<body>
+    <div class="contenedor">
+	
+	<!---PRIMERA SRECCIÓN-->
+	
+	  <header class="fila">
+	  
+	      <div class="logo col-lg-2 col-md-2">
+		  
+		    <img src="imgs/logo.png" alt="logo">
+			
+			Comercializadora y distribuidora<br> <span>Martinez</span>
+		  
+		  </div>
+		  
+		  <div class="busqueda col-lg-3 col-md-3">
+		  
+		    <span class=""></span> <input type="search" placeholder="Busqueda... \e91a ">
+		  
+		  </div>
+		  
+		  <div class="col-lg-5 col-md-5">
+		  
+		  
+		  </div>
+		  
+		  <div class="usuario col-lg-2 col-md-2">
+		  
+		  
+		  
+		  </div>
+	  
+	  </header>
+	  
+	
+	</div>
+
+
+</body>
+</html>
