@@ -1,0 +1,69 @@
+body,html{
+	margin:0;
+	padding:0;
+	font-family:encabezado;
+}
+
+@font-face{
+	font-family:encabezado;
+	src:url("../fonts/NotoSansKR-Light.otf");
+	
+}
+
+.informes{
+	
+	background-color:#33CDFF;
+	width:100%;
+	height:17%;
+	padding:1em;
+}
+
+
+.informes > h2{
+  
+  font-family:encabezado;
+  display:inline-block;
+  color:#FFF;
+  font-size:2.5em;
+  margin:0.5em;
+
+  
+}
+
+.boton_1{
+	
+
+  background-repeat:no-repeat;
+  height:25px;
+  width:40px;
+  background-position:center;
+}
+
+.boton_2{
+	
+	text-decoration:none;
+	padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffff;
+    background-color:blue;
+	display:inline-block;
+	margin:1.4em;
+  }
+
+.subtitulo{
+	
+	margin:0.2em 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+body{
+	margin:0;
+	padding:0;
+	background:#EAF2F8;
+}
+
+.sidebar{
+	background:#FFF;
+	width:260px;
+	height:600px;
+	box-sizing:border-box;
+}
+
+.sidebar a{
+	text-decoration:none;
+}
+
+.sidebar  ul li{
+	list-style:none;
+	margin:18px 1px 18px 3px;
+}
+
+.icon-chevron-right{
+	margin-left:180px;
+}

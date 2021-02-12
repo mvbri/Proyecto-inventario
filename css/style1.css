@@ -5,31 +5,11 @@
   padding:0;
   text-decoration:none;
   list-style:none;
-  /* font-family:sans-serif; */
   box-sizing:border-box;
 }
 
 /*----FUENTES---*/
 
-@font-face{
-  font-family:Caveat-Bold;
-  src:url(../fonts/Caveat-Bold.ttf) format('truetype');  
-}
-
-@font-face{
-  font-family:Roboto-Bold;
-  src:url(../fonts/Roboto-Bold.ttf) format('truetype');  
-}
-
-@font-face{
-  font-family:NotoSansTC-Regular;
-  src:url(../fonts/NotoSansTC-Regular.otf) format('OpenType');  
-}
-
-@font-face{
-  font-family:NotoSansHK-Medium;
-  src:url(../fonts/NotoSansHK-Medium.otf) format('OpenType');  
-}
 
 @font-face{
   font-family:NotoSansTC-Regular;
@@ -39,21 +19,13 @@
 /*--------------------------------------------*/
 
 body{
-  /* background:url(../imgs/menu.jpg); */
   background:#ECEFF1;
   font-family:NotoSansTC-Regular;
 }
 
-/* div, header{
-  border:1px solid #000;
-  padding:5px;
-  float:left; 
-} */
 
 [class*="col-"]{
 	float:left;
-    /* border:1px solid #000;  */
-	/* padding:5px; */
 }
 
 .contenedor{
@@ -61,7 +33,7 @@ body{
 	margin:auto;
 	width:100%;
   height:auto;
-  /* background:rgba(249, 47, 47, .3);	 */
+
 }
 
 .fila{
@@ -73,7 +45,7 @@ body{
   display:table;
 }
 
-/*<!---PRIMERA SECCIÓN-->*/
+/*--PRIMERA SECCIÓN--*/
 
 header{
 	border-bottom:1px solid rgb(204, 209, 209);
@@ -96,8 +68,7 @@ header .logo img{
 	margin-left:10px;
 }
 
-header .logo span{
-	/* color:#82E0AA ; */
+header .logo span{ 
 	color:#48C9B0;
 }
 
@@ -117,10 +88,6 @@ header .busqueda{
 header .busqueda input[type="search"]{
 	padding: 4px 2px;
 	text-align:center;
-	/* background:url(../imgs/buscar_opa.png);
-	background-repeat:no-repeat;
-	background-position:right;
-	background-size:contain; */
 	border-style:none;
 	border:1px solid #EBEDEF;
 	border-right:none;
@@ -217,12 +184,10 @@ header .usuario img{
  nav{
    width:100%;
    height:100%;
-   /* max-height: 700px; */
    background:#FFF;
    float:left;
    padding:12px 0px 12px 0px;
    position:relative;
-   /* top:-5px; */
    z-index:1000;
    left:-300px;
    min-width: 200px;
@@ -341,19 +306,16 @@ nav ul li:hover > ul{
 /*---------INICIO CUADRO DE INFORMACIÓN-----*/
 
 #informacion{
-  position:absolute;
+  position:relative;
   float:right;
   right:0px;
-  /* width:770px; */
   height:auto;
-  /* padding:20px; */
-  padding:35px 85px;
+  margin-bottom: 5em;
 }
 
 #informacion h2{
   font-size:20px;
-  margin-top:40px;
-  margin-bottom:55px;
+  margin-bottom: 20px;
   color:#34495E;  
   text-align: center;
 }
@@ -425,7 +387,7 @@ footer{
   width: 100%;
   height: auto;
   position: relative;
-  bottom: 100px;
+  bottom: 0;
   padding-left:8px;
   padding-right:10px;
   border-top:1px solid rgb(204, 209, 209); 

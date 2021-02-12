@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Calculadora Arcaica</title>
+	<meta charset="UTF-8">
+
+	
+	
+</head>
+<body> 
+	  
+<script>
+
+   function suma(num1,num2){
+    
+	   alert();
+   }
+
+</script>
+
+</body>
+</html>

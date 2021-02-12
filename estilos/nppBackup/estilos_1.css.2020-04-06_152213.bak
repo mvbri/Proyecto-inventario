@@ -1,0 +1,15 @@
+body,html{
+	margin:0;
+	padding:0;
+}
+
+.informes{
+	
+	background-color:#33CDFF;
+	
+}
+
+.informes > h2{
+	
+	float:left;
+}

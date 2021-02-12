@@ -1,0 +1,19 @@
+
+body{
+	margin:0;
+	padding:0;
+	background:#EAF2F8;
+}
+
+.sidebar{
+	background:#FFF;
+	width:25%;
+}
+
+.sidebar a{
+	text-decoration:none;
+}
+
+.sidebar  ul li{
+	list-style:none;
+}

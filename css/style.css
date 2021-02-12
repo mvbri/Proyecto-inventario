@@ -24,11 +24,6 @@ body{
   font-family:sans-serif;
 }
 
-/* div, header{
-  border:1px solid #000;
-  padding:5px;
-  float:left; 
-} */
 
 [class*="col-"]{
 	float:left;
@@ -123,11 +118,9 @@ header .busqueda input[type="search"]{
   .col-md-0{display:none;}
   
  
-  }
-  
-  
 }
-
+  
+  
 /*-----------------------------*/
 
 /* PANTALLA DE TABLET - SMALL (sm)*/

@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="css/style1.css">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="estilos/estilos_1.css">
+<script src="jquery/jquery-1.6.3.js"></script>
+<script src="jquery/jquery.easing.1.3.js"></script>
+<script src="js/inventario.js"></script>
+</head>
+<body>
+    <div class="contenedor"> <!--INICIO CONTENEDOR-->
+	<!---PRIMERA SRECCIÓN-->
+	    <header class="fila"> <!--INICIO FILA HEADER-->
+	        <div class="logo col-lg-2 col-md-2 col-sm-3 col-xs-12"> <!--INCIO DIV LOGO-->	
+			    Comercializadora y distribuidora<br> <span>Martinez</span>
+		    </div> <!--FIN DIV LOGO-->
+		    <div class="busqueda col-lg-5 col-md-5 col-sm-8 col-xs-10"> <!--INICIO DIV BUSQUEDA-->
+			    <i id="menu" class="fas fa-bars"></i>
+			    <i class="fas fa-expand-arrows-alt"></i> 
+			    <input type="search" class="fontawesome" placeholder=" Busqueda...">
+			    <div class="boton">
+				    <a href="">
+					    <i class="fas fa-search"></i>
+				    </a>
+			    </div>
+		    </div> <!--FIN DIV BUSQUEDA-->
+		    <div style="height:50px;" class="col-lg-3 col-md-3 col-sm-0 col-xs-0"> <!--DIV VACÍO-->
+		    </div><!--FIN DIV VACÍO-->
+		    <div class="usuario col-lg-2 col-md-2 col-sm-1 col-xs-2"> <!--INICIO DIV USUARIO-->
+		        <img src="imgs/icon_4.png">
+		    </div><!--FIN DIV USUARIO-->
+	    </header> <!--FIN FILA HEADER-->
+	    <!--SEGUNDA SECCIÓN------->
+	    <div class="fila"> <!--INICIO FILA SEGUNDA SECCIÓN-->
+	        <nav id="nav" class="col-lg-3 col-md-3 col-sm-4 col-xs-7"> <!--INICIO NAV MENU-->
+		        <ul class="ul-menu">
+		            <li class="main">MAIN</li>
+		            <li id="categorias"><a  href=""><i class="fas fa-border-all"></i>Categorías<i id="a" class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a>
+			           <ul>
+			               <li><a href="index.html">Agregar Categorías</a></li>
+			               <li><a href="">Gestionar Categorías</a></li>
+			           </ul>
+			        </li>
+		        </ul>
+	        </nav> <!--FIN NAV MENU-->
+	        <div class="info-gestion" id="informacion" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!--INCIO DIV INFORMACIÓN-->
+		        <div> <!--INICIO DIV-->
+		            <h3>Gestion de Categorías</h3>
+		            <div class="tabla">
+	 
+                        <h2 class="titulo_tabla2">Seleccionar criterios:</h2>
+                        
+                        <table class="tabla_I">
+                        
+                        <tr>
+                           <td><label>Nombre del producto</label></td>
+                           <td>
+                                <select id="productos" name="productos">
+                               <option value="producto1">Producto 1</option>
+                               <option value="producto2">Producto 2</option>
+                               <option value="producto3">Producto 3</option>
+                             </select>
+                           </td>
+                           <td>
+                              <label>Categoria</label>
+                           </td>
+                           <td>
+                             <select id="categoria" name="categoria">
+                               <option value="producto1">Categoria 1</option>
+                               <option value="producto2">Categoria 2</option>
+                               <option value="producto3">Categoria 3</option>
+                             </select>
+                           </td>
+                           <td><label>Ubicación</label></td>
+                         <td>
+                                <select id="ubicacion" name="ubicación">
+                               <option value="ubicacion1">Ubicación 1</option>
+                               <option value="ubicacion2">Ubicación 2</option>
+                               <option value="ubicacion3">Ubicación 3</option>
+                             </select>
+                         </td>
+                        </tr>
+                        <tr>
+                         <td><label>Ejemplo 4</label></td>
+                         <td>
+                            <select id="ejemplo4" name="ejemplo4">
+                               <option value="ejemplo1">ejemplo 1</option>
+                               <option value="ejemplo2">ejemplo 2</option>
+                               <option value="ejemplo3">ejemplo 3</option>
+                             </select>
+                         </td>
+                         <td><label>Ejemplo 5</label></td>
+                         <td>
+                             <select id="ejemplo5" name="ejemplo5">
+                               <option value="ejemplo1">ejemplo 1</option>
+                               <option value="ejemplo2">ejemplo 2</option>
+                               <option value="ejemplo3">ejemplo 3</option>
+                             </select>
+                         </td>
+                         <td>
+                            <label>Ejemplo 6</label>
+                         </td>
+                         <td>
+                                <select id="ejemplo6" name="ejemplos6">
+                               <option value="ejemplo1">ejemplo 1</option>
+                               <option value="ejemplo2">ejemplo 2</option>
+                               <option value="ejemplo3">ejemplo 3</option>
+                             </select>
+                         </td>
+                        </tr>
+                
+                        </table>
+                        
+                        <table cellpadding="5px" border="1" class="tabla_3">
+                        
+                          <tr class="borde_bajo">
+                             <td><label>Código del producto <span class="icon-filter"></span></label></td><td><label>Nombre del producto<span class="icon-filter"></span></label></td><td><label>Categoria<span class="icon-filter"></span></label></td><td><label>Existencias<span class="icon-filter"></span></label></td><td><label>Precio por unidad<span class="icon-filter"></span></label></td><td><label>Unidad por paquete<span class="icon-filter"></span></label></td><td><label>Pedidos<span class="icon-filter"></span></label></td>
+                          </tr>
+                          <tr class="bordebajo_otros">
+                             <td>0001</td><td><label>Producto 1</label></td><td><label>Categoria 1</label></td><td><label>1</label></td><td><label>1$</label></td><td><label> 100x1</label></td><td><label>2</label></td>
+                          </tr>
+                          <tr class="bordebajo_otros">
+                             <td>0002</td><td><label>Producto 2</label></td><td><label>Categoria 2</label></td><td><label>2</label></td><td><label>2$</label></td><td><label>50x1</label></td><td><label>3</label></td>
+                          </tr>
+                          <tr class="bordebajo_otros" >
+                             <td>0003</td><td><label>Producto 3</label></td><td><label>Categoria 3</label></td><td><label>3</label></td><td><label>3$</label></td><td><label>20x1</label></td><td><label>1</label></td>
+                          </tr>
+                          <tr class="bordebajo_otros">
+                             <td>0004</td><td><label>Producto 4</label></td><td><label>Categoria 4</label></td><td><label>4</label></td><td><label>4$</label></td><td><label>10x1</label></td><td><label>1</label></td>
+                          </tr>
+                          <tr class="bordebajo_otros">
+                             <td>0005</td><td><label>Producto 5</label></td><td><label>Categoria 5</label></td><td><label>5</label></td><td><label>5$</label></td><td><label>100x1</label></td><td><label>2</label></td>
+                          </tr>
+                        
+                        </table>
+                      
+		        </div> <!--FIN DIV-->
+	        </div> <!--FIN DIV INFORMACIÓN-->
+	    </div>  <!--FIN FILA SEGUNDA SECCIÓN--> 
+	    <div class="fila">
+	       <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!--INICIO FOOTER-->
+		       <p>
+			     <span>&copy;2020</span> Inventario Adaptable - <span>Todos los derechos reservados</span>
+		       </p>
+	           <a href="">Privacidad</a>
+	           <a href="">Terminos</a>
+	           <a href="">Ayuda</a>
+	       </footer> <!--FIN FOOTER-->
+	    </div> 
+    </div> <!--FIN CONTENEDOR-->
+</body>
+</html>
